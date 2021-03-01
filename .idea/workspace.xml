@@ -7,7 +7,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -148,20 +148,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/front" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\money\resources\views\front" />
+      <recent name="C:\laragon\www\money\resources\views\components" />
+      <recent name="C:\laragon\www\money\public\js" />
+      <recent name="C:\laragon\www\money\resources\css" />
+      <recent name="C:\laragon\www\money\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\laragon\www\money\resources\views\auth\default" />
       <recent name="C:\laragon\www\money\resources\views\front" />
       <recent name="C:\laragon\www\money\public" />
       <recent name="C:\laragon\www\money\public\css" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\laragon\www\money\resources\views\components" />
-      <recent name="C:\laragon\www\money\public\js" />
-      <recent name="C:\laragon\www\money\resources\css" />
-      <recent name="C:\laragon\www\money\resources" />
     </key>
   </component>
   <component name="RunManager">
@@ -192,7 +193,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614158143920</updated>
-      <workItem from="1614158172226" duration="21405000" />
+      <workItem from="1614158172226" duration="21997000" />
+      <workItem from="1614240619505" duration="1225000" />
+      <workItem from="1614588072761" duration="9144000" />
     </task>
     <servers />
   </component>
@@ -208,6 +211,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1614171174257" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1614240627390">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1614240627390" />
     <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614176580897">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -216,9 +223,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1614178346948" />
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1614183467169">
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1614602394630">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1614183467169" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1614602394630" />
   </component>
 </project>

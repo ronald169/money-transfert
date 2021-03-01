@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+Route::get('current-change', function () {
+    return view('front.change.current-change');
+})->name('current-change');
