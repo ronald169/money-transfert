@@ -2,7 +2,7 @@
 
 @section('main')
 
-    <div class="flex items-center justify-center">
+    <div>
         @livewire('current-change')
     </div>
 

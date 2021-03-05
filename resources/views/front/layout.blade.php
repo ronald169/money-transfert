@@ -156,5 +156,7 @@
 <script src="{{ asset('vendor/bootstrap-select/js/bootstrap-select.min.js') }}"></script>
 <script src="{{ asset('vendor/owl.carousel/owl.carousel.min.js') }}"></script>
 <script src="{{ asset('js/theme.js') }}"></script>
+
+@yield('javascript')
 </body>
 </html>

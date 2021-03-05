@@ -148,7 +148,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/front" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -195,7 +195,9 @@
       <updated>1614158143920</updated>
       <workItem from="1614158172226" duration="21997000" />
       <workItem from="1614240619505" duration="1225000" />
-      <workItem from="1614588072761" duration="9449000" />
+      <workItem from="1614588072761" duration="10118000" />
+      <workItem from="1614619649922" duration="1543000" />
+      <workItem from="1614759764136" duration="15864000" />
     </task>
     <servers />
   </component>
@@ -223,9 +225,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1614178346948" />
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1614602394630">
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1614761391455">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1614602394630" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1614761391455" />
   </component>
 </project>
