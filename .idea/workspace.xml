@@ -148,21 +148,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/vendor/bootstrap-select/css" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\laragon\www\money\resources\views\front" />
-      <recent name="C:\laragon\www\money\resources\views\components" />
-      <recent name="C:\laragon\www\money\public\js" />
-      <recent name="C:\laragon\www\money\resources\css" />
-      <recent name="C:\laragon\www\money\resources" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\money\public\css" />
       <recent name="C:\laragon\www\money\resources\views\auth\default" />
       <recent name="C:\laragon\www\money\resources\views\front" />
       <recent name="C:\laragon\www\money\public" />
-      <recent name="C:\laragon\www\money\public\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\money\public\vendor\bootstrap-select\css" />
+      <recent name="C:\laragon\www\money\public\vendor\bootstrap-select\js" />
+      <recent name="C:\laragon\www\money\public" />
+      <recent name="C:\laragon\www\money\public\js" />
+      <recent name="C:\laragon\www\money\resources\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -198,6 +198,7 @@
       <workItem from="1614588072761" duration="10118000" />
       <workItem from="1614619649922" duration="1543000" />
       <workItem from="1614759764136" duration="15864000" />
+      <workItem from="1615364936085" duration="24200000" />
     </task>
     <servers />
   </component>
@@ -225,9 +226,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1614178346948" />
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1614761391455">
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1615399689188">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1614761391455" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1615399689188" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/front/send-money.blade.php</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/front/send-money.blade.php</url>
+          <line>45</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
