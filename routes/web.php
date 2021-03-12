@@ -17,8 +17,12 @@ Route::get('/', function () {
     return view('front.welcome');
 })->name('welcome');
 
+//Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+//    return view('dashboard');
+//})->name('dashboard');
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
+    return view('front.welcome');
 })->name('dashboard');
 
 Route::get('currency-change', function () {
