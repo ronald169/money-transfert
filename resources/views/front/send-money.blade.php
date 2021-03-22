@@ -1,21 +1,17 @@
-@extends('front.layout')
-
-@section('main')
-
-    <section class="hero-wrap">
+<section class="hero-wrap">
     <div class="hero-mask opacity-7 bg-dark"></div>
-    <div class="hero-bg" style="background-image:url('images/bg/image-6.jpg');"></div>
+    <div class="hero-bg" style="background-image:url({{asset('images/bg/image-6.jpg')}});"></div>
     <div class="hero-content d-flex flex-column fullscreen-with-header">
         <div class="container my-auto py-5">
             <div class="row">
                 <div class="col-lg-6 col-xl-7 my-auto text-center text-lg-left pb-4 pb-lg-0">
                     <h2 class="text-17 text-white"><span class="font-weight-400 text-15">La Meilleur façon</span> <br>
                         D'envoyer l'argent</h2>
-                    <p class="text-4 text-white mb-4"> Envoyer l'argent avec les meilleur taux de change bien inférieur a ceux de la banque </p>
-                    <a class="btn btn-outline-light video-btn" href="#" data-src="https://www.youtube.com/embed/7e90gBu4pas" data-toggle="modal" data-target="#videoModal"><span class="text-2 mr-3"><i class="fas fa-play"></i></span>See How it Works</a> </div>
+                    <p class="text-4 text-white mb-4"> Envoyer l'argent avec les meilleurs taux de change bien inférieur a ceux de la banque </p>
+                    <a class="btn btn-outline-light video-btn" href="#" data-src="https://www.youtube.com/embed/7e90gBu4pas" data-toggle="modal" data-target="#videoModal"><span class="text-2 mr-3"><i class="fas fa-play"></i></span>Voir comment sa fonctionne !</a> </div>
                 <div class="col-lg-6 col-xl-5 my-auto">
                     <div class="bg-white rounded shadow-md p-4">
-                        <h3 class="text-5 mb-4 text-center">Send Money</h3>
+                        <h3 class="text-5 mb-4 text-center">Envoyer l'argent</h3>
 
                         <div style="display: none" id="error">
                             <div class="alert alert-danger" role="alert" >
@@ -27,7 +23,7 @@
                         <form id="form-send-money" method="POST" action="{{route('send-money')}}">
                             @csrf
                             <div class="form-group">
-                                <label for="youSend">You Send</label>
+                                <label for="youSend">Tu envois</label>
                                 <div class="input-group">
                                     <div class="input-group-prepend"> <span class="input-group-text">$</span> </div>
                                     <input type="text"
@@ -51,7 +47,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="recipientGets">Recipient Gets</label>
+                                <label for="recipientGets">Le destinataire obtient</label>
                                 <div class="input-group">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text">$</span> </div>
@@ -73,7 +69,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="receivingOptions">Receiving options</label>
+                                <label for="receivingOptions">Options de réception</label>
                                 <div class="input-group">
                                     <div class="dropdown bootstrap-select form-control">
                                         <select id="receivingOptions" data-style="custom-select" class="selectpicker form-control" required="" name="receivingType" tabindex="-98">
@@ -114,8 +110,6 @@
     </div>
 </section>
 
-@endsection
-
 @section('javascript')
 
     <script>
@@ -131,12 +125,12 @@
         function moneySend() {
             switch (showOption()) {
                 case currencies[1] :
-                    document.getElementById('recipientGets').value = (parseInt(document.getElementById('youSend').value) * 0.83015).toFixed(2);
+                    document.getElementById('recipientGets').value = (parseInt(document.getElementById('youSend').value) * 1.2046).toFixed(2);
                     document.getElementById('fees').innerHTML = (document.getElementById('recipientGets').value * 0.05).toFixed(2) + ' USD';
                     document.getElementById('totals').innerHTML = (parseInt(document.getElementById('recipientGets').value) + parseInt(document.getElementById('fees').innerText));
                     break;
                 case currencies[2] :
-                    document.getElementById('recipientGets').value = (parseInt(document.getElementById('youSend').value) * 0.717).toFixed(2);
+                    document.getElementById('recipientGets').value = (parseInt(document.getElementById('youSend').value) * 1.3947).toFixed(2);
                     document.getElementById('fees').innerHTML = (document.getElementById('recipientGets').value * 0.05).toFixed(2) + ' USD';
                     document.getElementById('totals').innerHTML = (parseInt(document.getElementById('recipientGets').value) + parseInt(document.getElementById('fees').innerText));
                     break;
@@ -183,6 +177,4 @@
             totals = fees + amountToReceive;
         }
     </script>
-
-
 @endsection

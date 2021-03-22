@@ -21,11 +21,9 @@
                 <nav class="primary-menu navbar navbar-expand-lg">
                     <div id="header-nav" class="collapse navbar-collapse">
                         <ul class="navbar-nav mr-auto">
-                            <li class="active"><a href="landing-page-send.html">Send</a></li>
-                            <li><a href="landing-page-receive.html">Receive</a></li>
-                            <li><a href="about-us.html">About Us</a></li>
-                            <li><a href="fees.html">Fees</a></li>
-                            <li><a href="help.html">Help</a></li>
+                            <li><a href="{{ route('about') }}">A propos de nous</a></li>
+                            <li><a href="{{ route('faq') }}">FAQ</a></li>
+                            <li><a href="{{ route('contact') }}">Contactez nous</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -36,8 +34,8 @@
                 ============================== -->
                 <nav class="login-signup navbar navbar-expand">
                     <ul class="navbar-nav">
-                        <li><a href="{{ route('login') }}">@lang('Login')</a> </li>
-                        <li class="align-items-center h-auto ml-sm-3"><a class="btn btn-primary" href="{{route('register')}}">@lang('Sign Up')</a></li>
+                        <li><a href="{{ route('login') }}">Se connecter</a> </li>
+                        <li class="align-items-center h-auto ml-sm-3"><a class="btn btn-primary" href="{{route('register')}}">S'inscrire</a></li>
                     </ul>
                 </nav>
                 <!-- Login & Signup Link end -->
