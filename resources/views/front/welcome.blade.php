@@ -153,7 +153,7 @@
                                     <strong class="d-block font-weight-500">Dennis Jacques</strong> <span class="text-muted">User from USA</span> </div>
                             </div>
                         </div>
-                        <div class="text-center mt-4"><a href="#" class="btn-link text-4">See more people review<i class="fas fa-chevron-right text-2 ml-2"></i></a></div>
+                        <div class="text-center mt-4"><a href="#" class="btn-link text-4">Voir plus d'avis de personnes<i class="fas fa-chevron-right text-2 ml-2"></i></a></div>
                     </div>
                 </div>
             </div>
@@ -180,7 +180,7 @@
                             </div>
                             <div class="card">
                                 <div class="card-header" id="heading2">
-                                    <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">How to send money online?</a> </h5>
+                                    <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Comment envoyer de l'argent en ligne?</a> </h5>
                                 </div>
                                 <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#popularTopics">
                                     <div class="card-body"> Iisque Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. </div>
@@ -188,7 +188,7 @@
                             </div>
                             <div class="card">
                                 <div class="card-header" id="heading3">
-                                    <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Is my money safe with Payyed?</a> </h5>
+                                    <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Mon argent est-il en sécurité avec Kimya?</a> </h5>
                                 </div>
                                 <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#popularTopics">
                                     <div class="card-body"> Iisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Mutat tacimates id sit. Ridens mediocritatem ius an, eu nec magna imperdiet. </div>
@@ -196,7 +196,7 @@
                             </div>
                             <div class="card">
                                 <div class="card-header" id="heading4">
-                                    <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">How much fees does Payyed charge?</a> </h5>
+                                    <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Combien de frais Payyed facture-t-il?</a> </h5>
                                 </div>
                                 <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#popularTopics">
                                     <div class="card-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. </div>
@@ -204,7 +204,7 @@
                             </div>
                             <div class="card">
                                 <div class="card-header" id="heading5">
-                                    <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">What is the fastest way to send money abroad?</a> </h5>
+                                    <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">Quel est le moyen le plus rapide d'envoyer de l'argent à l'étranger?</a> </h5>
                                 </div>
                                 <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#popularTopics">
                                     <div class="card-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. </div>
@@ -212,7 +212,7 @@
                             </div>
                             <div class="card">
                                 <div class="card-header" id="heading6">
-                                    <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">Can I open an Payyed account for business?</a> </h5>
+                                    <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">Puis-je ouvrir un compte Kimya pour les entreprises?</a> </h5>
                                 </div>
                                 <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#popularTopics">
                                     <div class="card-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. </div>

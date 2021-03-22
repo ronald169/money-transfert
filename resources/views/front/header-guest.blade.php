@@ -22,7 +22,7 @@
                     <div id="header-nav" class="collapse navbar-collapse">
                         <ul class="navbar-nav mr-auto">
                             <li><a href="{{ route('about') }}">A propos de nous</a></li>
-                            <li><a href="{{ route('faq') }}">FAQ</a></li>
+                            <li><a href="{{ route('help') }}">Aide</a></li>
                             <li><a href="{{ route('contact') }}">Contactez nous</a></li>
                         </ul>
                     </div>

@@ -21,9 +21,9 @@ Route::prefix('transfert')->middleware('auth')->group(function () {
     Route::post('confirm', [PaymentController::class, 'checkSend'])->name('confirm-money');
 });
 
-//Route::name('transaction')->get('transaction', function() {
-//    return view('front.transaction');
-//});
+Route::name('transaction')->get('transaction', function() {
+    return view('front.transaction');
+});
 
     // Page
 Route::name('about')->get('about', function() {
