@@ -4,7 +4,12 @@
             <div class="header-column justify-content-start">
                 <!-- Logo
                 ============================= -->
-                <div class="logo"> <a class="d-flex" href="{{route('welcome')}}" title="Payyed - HTML Template"><img src="{{asset('images/logo.png')}}" alt="Payyed" /></a> </div>
+                <div class="logo">
+                    <a class="d-flex" href="{{route('welcome')}}" title="Kimya">
+{{--                        <img src="{{asset('images/logo.png')}}" alt="Payyed" />--}}
+                        <h1 class="text-primary">KIMYA</h1>
+                    </a>
+                </div>
                 <!-- Logo end -->
                 <!-- Collapse Button
                 ============================== -->
