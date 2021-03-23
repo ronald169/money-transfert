@@ -37,16 +37,34 @@ class PaymentController extends Controller
     {
         $data = $request->input();
 
-//        dd($data);
         $fees = $this->fees();
         $totals = $this->totals();
+
+        session()->put('fees', $fees);
+        session()->put('totals', $totals);
+
         return view('money.send', compact('data', 'fees', 'totals'));
     }
 
-    public function checkSend(SendRequest $request)
+    public function checkSend(Request $request)
     {
-        return view('money.confirm');
+        $data = $request->input();
+
+        session()->put('email', $request->input('email'));
+
+
+        $fees = $this->fees();
+        $totals = $this->totals();
+
+        return view('money.confirm', compact('data', 'fees', 'totals'));
     }
+
+    public function success(Request $request)
+    {
+        return view('money.success');
+    }
+
+
 
 
     public function fees()

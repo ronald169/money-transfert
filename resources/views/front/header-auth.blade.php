@@ -6,8 +6,8 @@
                 ============================= -->
                 <div class="logo">
                     <a class="d-flex" href="{{route('welcome')}}" title="Kimya">
-{{--                        <img src="{{asset('images/logo.png')}}" alt="Payyed" />--}}
-                        <h1 class="text-primary">KIMYA</h1>
+                        <img src="{{asset('images/logo/logo.png')}}" alt="Payyed" />
+{{--                        <h1 class="text-primary">KIMYA</h1>--}}
                     </a>
                 </div>
                 <!-- Logo end -->
@@ -56,7 +56,7 @@
                             <ul class="dropdown-menu">
                                 <li class="text-center text-3 py-2">{{ auth()->user()->name }}</li>
                                 <li class="dropdown-divider mx-n3"></li>
-                                <li><a class="dropdown-item" href="{{ route('profile.show') }}"><i class="fas fa-user"></i>Mon Profile</a></li>
+                                <li><a class="dropdown-item" href="{{ route('account') }}"><i class="fas fa-user"></i>Mon Profile</a></li>
                                 <li><a class="dropdown-item" href="#"><i class="fas fa-shield-alt"></i>Sécurité</a></li>
                                 <li><a class="dropdown-item" href="#"><i class="fas fa-credit-card"></i>Methodes paiement</a></li>
                                 <li><a class="dropdown-item" href="{{route('notification')}}"><i class="fas fa-bell"></i>Notifications</a></li>

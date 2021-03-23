@@ -162,20 +162,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../filament" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/logo" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\laragon\www\money\public\css" />
-      <recent name="C:\laragon\www\money\resources\views\auth\default" />
-      <recent name="C:\laragon\www\money\resources\views\front" />
-      <recent name="C:\laragon\www\money\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\money\public\images\logo" />
       <recent name="C:\laragon\www\money\public\images" />
       <recent name="C:\laragon\www\money\resources\lang" />
       <recent name="C:\laragon\www\money\public\vendor\bootstrap-select\css" />
       <recent name="C:\laragon\www\money\public\vendor\bootstrap-select\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\money\public\css" />
+      <recent name="C:\laragon\www\money\resources\views\auth\default" />
+      <recent name="C:\laragon\www\money\resources\views\front" />
       <recent name="C:\laragon\www\money\public" />
     </key>
   </component>
@@ -218,7 +218,8 @@
       <workItem from="1615824247208" duration="1465000" />
       <workItem from="1615982992898" duration="8474000" />
       <workItem from="1616143478831" duration="4381000" />
-      <workItem from="1616403178803" duration="18310000" />
+      <workItem from="1616403178803" duration="19183000" />
+      <workItem from="1616428645371" duration="20899000" />
     </task>
     <servers />
   </component>
@@ -234,10 +235,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="425" y="168" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1616006338347" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1615814504206">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1616435201835">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1615814504206" />
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616435201835" />
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1616403268482">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -246,14 +247,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1616408537515" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1616424940721">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1616496548987">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1616424940721" />
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1616427411582">
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1616496548987" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1616508315100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1616427411582" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1616508315100" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -275,12 +276,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/resources/views/money/send.blade.php</url>
-          <line>51</line>
+          <line>55</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/resources/views/money/send.blade.php</url>
-          <line>66</line>
+          <line>69</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">

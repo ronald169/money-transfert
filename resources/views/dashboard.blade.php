@@ -20,7 +20,7 @@
                                 <input type="file" class="custom-file-input" id="customFile">
                             </div>
                         </div>
-                        <p class="text-3 font-weight-500 mb-2">Hello, {{ auth()->user()->name }}</p>
+                        <p class="text-3 font-weight-500 mb-2">Salut, {{ auth()->user()->name }}</p>
                         <p class="mb-2"><a href="{{ route('profile.show') }}" class="text-5 text-light" data-toggle="tooltip" title="Edit Profile"><i class="fas fa-edit"></i></a></p>
                     </div>
                     <!-- Profile Details End -->
@@ -32,7 +32,7 @@
                         <h3 class="text-9 font-weight-400">$2956.00</h3>
                         <p class="mb-2 text-muted opacity-8">Solde disponible</p>
                         <hr class="mx-n3">
-                        <div class="d-flex"><a href="#" class="btn-link mr-auto">Se désister</a> <a href="#" class="btn-link ml-auto">Deposit</a></div>
+                        <div class="d-flex"><a href="#" class="btn-link mr-auto">Retrait</a> <a href="#" class="btn-link ml-auto">Depot</a></div>
                     </div>
                     <!-- Available Balance End -->
 
@@ -43,7 +43,7 @@
                         <h3 class="text-5 font-weight-400 my-4">Besoin d'aide?</h3>
                         <p class="text-muted opacity-8 mb-4">Vous avez des questions ou des préoccupations concernant votre compte?<br>
                             Nos experts sont là pour aider!</p>
-                        <a href="#" class="btn btn-primary btn-block">Discute avec nous</a> </div>
+                        <a href="#" class="btn btn-primary btn-block">Discutez avec nous</a> </div>
                     <!-- Need Help? End -->
 
                 </aside>
@@ -56,7 +56,7 @@
                     <!-- Profile Completeness
                     =============================== -->
                     <div class="bg-white shadow-sm rounded p-4 mb-4">
-                        <h3 class="text-5 font-weight-400 d-flex align-items-center mb-4">profil non completé<span class="border text-success rounded-pill font-weight-500 text-2 px-3 py-1 ml-2">50%</span></h3>
+                        <h3 class="text-5 font-weight-400 d-flex align-items-center mb-4">profil incompleté<span class="border text-success rounded-pill font-weight-500 text-2 px-3 py-1 ml-2">50%</span></h3>
                         <hr class="mb-4 mx-n4">
                         <div class="row profile-completeness">
                             <div class="col-sm-6 col-md-3 mb-4 mb-md-0">

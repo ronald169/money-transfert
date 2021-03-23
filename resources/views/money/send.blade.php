@@ -44,35 +44,42 @@
                             <div class="form-group">
                                 <label for="emailID">Envoyer a </label>
                                 <input type="text" value="" name="email" class="form-control" data-bv-field="emailid" id="emailID" required placeholder="Enter Email Address">
+                                <input type="hidden" name="youSend" value="{{ $data['youSend'] }}">
+                                <input type="hidden" name="recipientGets" value="{{ $data['recipientGets'] }}">
+                                <input type="hidden" name="fees" value="{{ $fees }}">
+                                <input type="hidden" name="totals" value="{{ $totals }}">
                             </div>
-                            <div class="form-group">
-                                <label for="youSend">Tu envois</label>
-                                <div class="input-group">
-                                    <div class="input-group-prepend"> <span class="input-group-text">$</span> </div>
-                                    <input type="text" class="form-control" disabled data-bv-field="youSend" name="youSend" id="youSend" value="{{ $data['youSend'] }}" placeholder="">
-                                    <div class="input-group-append"> <span class="input-group-text p-0">
-                    <select id="youSendCurrency" data-style="custom-select bg-transparent border-0" data-container="body" data-live-search="true" class="selectpicker form-control bg-transparent" required="">
-                      <option data-icon="currency-flag currency-flag-usd mr-1" data-subtext="United States dollar" selected="selected" value="dollar" >USD</option>
-                      <option data-icon="currency-flag currency-flag-eur mr-1" data-subtext="Euro" value="euro">EUR</option>
-                      <option data-icon="currency-flag currency-flag-gbp mr-1" data-subtext="British pound" value="">GBP</option>
-
-                    </select>
-                    </span> </div>
-                                </div>
-                            </div>
+{{--                            <div class="form-group">--}}
+{{--                                <label for="youSend">Tu envois</label>--}}
+{{--                                <div class="input-group">--}}
+{{--                                    <div class="input-group-prepend"> <span class="input-group-text">$</span> </div>--}}
+                                    <input type="hidden" class="form-control" disabled data-bv-field="youSend" name="youSend" id="youSend" value="{{ $data['youSend'] }}" placeholder="">
+{{--                                    <div class="input-group-append"> <span class="input-group-text p-0">--}}
+{{--                                <select id="youSendCurrency" data-style="custom-select bg-transparent border-0" data-container="body" data-live-search="true" class="selectpicker form-control bg-transparent" required="">--}}
+{{--                                  <option data-icon="currency-flag currency-flag-usd mr-1" data-subtext="United States dollar" selected="selected" value="dollar" >USD</option>--}}
+{{--                                  <option data-icon="currency-flag currency-flag-eur mr-1" data-subtext="Euro" value="euro">EUR</option>--}}
+{{--                                  <option data-icon="currency-flag currency-flag-gbp mr-1" data-subtext="British pound" value="">GBP</option>--}}
+{{--                                </select>--}}
+{{--                    </span> </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
                             <div class="form-group">
                                 <label for="recipientGets">Il reçois</label>
                                 <div class="input-group">
                                     <div class="input-group-prepend"> <span class="input-group-text">$</span> </div>
-                                    <input type="text" class="form-control" disabled data-bv-field="recipientGets" name="recipientGets" id="recipientGets" value="{{$data['youSend']}}" placeholder="" selected>
-                                    <div class="input-group-append"> <span class="input-group-text p-0">
-                    <select id="recipientCurrency" data-style="custom-select bg-transparent border-0" data-container="body" data-live-search="true" class="selectpicker form-control bg-transparent" required="">
-                      <option data-icon="currency-flag currency-flag-usd mr-1" data-subtext="United States dollar" value="dollar" selected>USD</option>
-                    </select>
-                    </span> </div>
+                                    <input type="text" class="form-control" disabled data-bv-field="recipientGets"
+                                           name="recipientGetss" id="recipientGets"
+                                           value="{{$data['recipientGets']}}" placeholder="">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text p-0">
+                                            <select id="recipientCurrency" data-style="custom-select bg-transparent border-0" data-container="body" data-live-search="true" class="selectpicker form-control bg-transparent" required="">
+                                              <option data-icon="currency-flag currency-flag-usd mr-1" data-subtext="United States dollar" value="dollar" selected>USD</option>
+                                            </select>
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
-                            <p class="text-muted text-center">The current exchange rate is
+                            <p class="text-muted text-center">Le montant de change est :
                                 <span class="font-weight-500">1 USD = 0.830 EUR</span>
                                 <br> <span class="font-weight-500">1 USD = 0.717 GBP</span>
                             </p>
