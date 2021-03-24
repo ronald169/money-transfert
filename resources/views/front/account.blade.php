@@ -399,18 +399,18 @@
                     <!-- Account Settings
                     ============================================= -->
                     <div class="bg-white shadow-sm rounded p-4 mb-4">
-                        <h3 class="text-5 font-weight-400 d-flex align-items-center mb-4">Account Settings<a href="#edit-account-settings" data-toggle="modal" class="ml-auto text-2 text-uppercase btn-link"><span class="mr-1"><i class="fas fa-edit"></i></span>Edit</a></h3>
+                        <h3 class="text-5 font-weight-400 d-flex align-items-center mb-4">Paramètres du compte<a href="#edit-account-settings" data-toggle="modal" class="ml-auto text-2 text-uppercase btn-link"><span class="mr-1"><i class="fas fa-edit"></i></span>Editer</a></h3>
                         <hr class="mx-n4 mb-4">
                         <div class="form-row align-items-center">
-                            <p class="col-sm-3 text-muted text-sm-right mb-0 mb-sm-3">Language:</p>
-                            <p class="col-sm-9 text-3">English (United States)</p>
+                            <p class="col-sm-3 text-muted text-sm-right mb-0 mb-sm-3">Langue:</p>
+                            <p class="col-sm-9 text-3">Anglais (États Unis)</p>
                         </div>
                         <div class="form-row align-items-center">
-                            <p class="col-sm-3 text-muted text-sm-right mb-0 mb-sm-3">Time Zone:</p>
-                            <p class="col-sm-9 text-3">(GMT-06:00) Central America</p>
+                            <p class="col-sm-3 text-muted text-sm-right mb-0 mb-sm-3">Fuseau horaire:</p>
+                            <p class="col-sm-9 text-3">(GMT-06: 00) Amérique centrale</p>
                         </div>
                         <div class="form-row align-items-center">
-                            <p class="col-sm-3 text-muted text-sm-right mb-0 mb-sm-3">Account Status:</p>
+                            <p class="col-sm-3 text-muted text-sm-right mb-0 mb-sm-3">Statut du compte:</p>
                             <p class="col-sm-9 text-3"><span class="bg-success text-white rounded-pill d-inline-block px-2 mb-0"><i class="fas fa-check-circle"></i> Active</span></p>
                         </div>
                     </div>
@@ -420,7 +420,7 @@
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title font-weight-400">Account Settings</h5>
+                                    <h5 class="modal-title font-weight-400">Paramètres du compte</h5>
                                     <button type="button" class="close font-weight-400" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
                                 </div>
                                 <div class="modal-body p-4">
@@ -428,18 +428,18 @@
                                         <div class="row">
                                             <div class="col-12">
                                                 <div class="form-group">
-                                                    <label for="language">Language</label>
+                                                    <label for="language">Langue</label>
                                                     <select class="custom-select" id="language" name="language_id">
-                                                        <option value="1">English (United States)</option>
-                                                        <option value="2">Spanish </option>
-                                                        <option value="3">Chinese</option>
-                                                        <option value="4">Russian</option>
+                                                        <option value="1">Anglais (United States)</option>
+                                                        <option value="2">Espagnol </option>
+                                                        <option value="3">Chinois</option>
+                                                        <option value="4">Russe</option>
                                                     </select>
                                                 </div>
                                             </div>
                                             <div class="col-12">
                                                 <div class="form-group">
-                                                    <label for="input-timezone">Time Zone</label>
+                                                    <label for="input-timezone">Fuseau horaire</label>
                                                     <select class="custom-select" id="input-timezone" name="timezone_id">
                                                         <option value="-12">(GMT-12:00) International Date Line West</option>
                                                         <option value="-11">(GMT-11:00) Midway Island, Samoa</option>
@@ -451,71 +451,6 @@
                                                         <option value="-7">(GMT-07:00) Chihuahua, La Paz, Mazatlan</option>
                                                         <option value="-7">(GMT-07:00) Mountain Time (US & Canada)</option>
                                                         <option selected="selected" value="-6">(GMT-06:00) Central America</option>
-                                                        <option value="-6">(GMT-06:00) Central Time (US & Canada)</option>
-                                                        <option value="-6">(GMT-06:00) Guadalajara, Mexico City, Monterrey</option>
-                                                        <option value="-6">(GMT-06:00) Saskatchewan</option>
-                                                        <option value="-5">(GMT-05:00) Bogota, Lima, Quito, Rio Branco</option>
-                                                        <option value="-5">(GMT-05:00) Eastern Time (US & Canada)</option>
-                                                        <option value="-5">(GMT-05:00) Indiana (East)</option>
-                                                        <option value="-4">(GMT-04:00) Atlantic Time (Canada)</option>
-                                                        <option value="-4">(GMT-04:00) Caracas, La Paz</option>
-                                                        <option value="-4">(GMT-04:00) Manaus</option>
-                                                        <option value="-4">(GMT-04:00) Santiago</option>
-                                                        <option value="-3.5">(GMT-03:30) Newfoundland</option>
-                                                        <option value="-3">(GMT-03:00) Brasilia</option>
-                                                        <option value="-3">(GMT-03:00) Buenos Aires, Georgetown</option>
-                                                        <option value="-3">(GMT-03:00) Greenland</option>
-                                                        <option value="-3">(GMT-03:00) Montevideo</option>
-                                                        <option value="-2">(GMT-02:00) Mid-Atlantic</option>
-                                                        <option value="-1">(GMT-01:00) Cape Verde Is.</option>
-                                                        <option value="-1">(GMT-01:00) Azores</option>
-                                                        <option value="0">(GMT+00:00) Casablanca, Monrovia, Reykjavik</option>
-                                                        <option value="0">(GMT+00:00) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London</option>
-                                                        <option value="1">(GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</option>
-                                                        <option value="1">(GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</option>
-                                                        <option value="1">(GMT+01:00) Brussels, Copenhagen, Madrid, Paris</option>
-                                                        <option value="1">(GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb</option>
-                                                        <option value="1">(GMT+01:00) West Central Africa</option>
-                                                        <option value="2">(GMT+02:00) Amman</option>
-                                                        <option value="2">(GMT+02:00) Athens, Bucharest, Istanbul</option>
-                                                        <option value="2">(GMT+02:00) Beirut</option>
-                                                        <option value="2">(GMT+02:00) Cairo</option>
-                                                        <option value="2">(GMT+02:00) Harare, Pretoria</option>
-                                                        <option value="2">(GMT+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius</option>
-                                                        <option value="2">(GMT+02:00) Jerusalem</option>
-                                                        <option value="2">(GMT+02:00) Minsk</option>
-                                                        <option value="2">(GMT+02:00) Windhoek</option>
-                                                        <option value="3">(GMT+03:00) Kuwait, Riyadh, Baghdad</option>
-                                                        <option value="3">(GMT+03:00) Moscow, St. Petersburg, Volgograd</option>
-                                                        <option value="3">(GMT+03:00) Nairobi</option>
-                                                        <option value="3">(GMT+03:00) Tbilisi</option>
-                                                        <option value="3.5">(GMT+03:30) Tehran</option>
-                                                        <option value="4">(GMT+04:00) Abu Dhabi, Muscat</option>
-                                                        <option value="4">(GMT+04:00) Baku</option>
-                                                        <option value="4">(GMT+04:00) Yerevan</option>
-                                                        <option value="4.5">(GMT+04:30) Kabul</option>
-                                                        <option value="5">(GMT+05:00) Yekaterinburg</option>
-                                                        <option value="5">(GMT+05:00) Islamabad, Karachi, Tashkent</option>
-                                                        <option value="5.5">(GMT+05:30) Sri Jayawardenapura</option>
-                                                        <option value="5.5">(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi</option>
-                                                        <option value="5.75">(GMT+05:45) Kathmandu</option>
-                                                        <option value="6">(GMT+06:00) Almaty, Novosibirsk</option>
-                                                        <option value="6">(GMT+06:00) Astana, Dhaka</option>
-                                                        <option value="6.5">(GMT+06:30) Yangon (Rangoon)</option>
-                                                        <option value="7">(GMT+07:00) Bangkok, Hanoi, Jakarta</option>
-                                                        <option value="7">(GMT+07:00) Krasnoyarsk</option>
-                                                        <option value="8">(GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi</option>
-                                                        <option value="8">(GMT+08:00) Kuala Lumpur, Singapore</option>
-                                                        <option value="8">(GMT+08:00) Irkutsk, Ulaan Bataar</option>
-                                                        <option value="8">(GMT+08:00) Perth</option>
-                                                        <option value="8">(GMT+08:00) Taipei</option>
-                                                        <option value="9">(GMT+09:00) Osaka, Sapporo, Tokyo</option>
-                                                        <option value="9">(GMT+09:00) Seoul</option>
-                                                        <option value="9">(GMT+09:00) Yakutsk</option>
-                                                        <option value="9.5">(GMT+09:30) Adelaide</option>
-                                                        <option value="9.5">(GMT+09:30) Darwin</option>
-                                                        <option value="10">(GMT+10:00) Brisbane</option>
-                                                        <option value="10">(GMT+10:00) Canberra, Melbourne, Sydney</option>
                                                         <option value="10">(GMT+10:00) Hobart</option>
                                                         <option value="10">(GMT+10:00) Guam, Port Moresby</option>
                                                         <option value="10">(GMT+10:00) Vladivostok</option>
@@ -592,11 +527,11 @@
                     <!-- Phone
                     ============================================= -->
                     <div class="bg-white shadow-sm rounded p-4 mb-4">
-                        <h3 class="text-5 font-weight-400 d-flex align-items-center mb-4">Phone<a href="#edit-phone" data-toggle="modal" class="ml-auto text-2 text-uppercase btn-link"><span class="mr-1"><i class="fas fa-edit"></i></span>Edit</a></h3>
+                        <h3 class="text-5 font-weight-400 d-flex align-items-center mb-4">Phone<a href="#edit-phone" data-toggle="modal" class="ml-auto text-2 text-uppercase btn-link"><span class="mr-1"><i class="fas fa-edit"></i></span>Editer</a></h3>
                         <hr class="mx-n4 mb-4">
                         <div class="form-row align-items-center">
                             <p class="col-sm-3 text-muted text-sm-right mb-0 mb-sm-3">Mobile:</p>
-                            <p class="col-sm-9 text-3 align-items-center d-flex">+1 202-555-0125<span class="badge badge-info text-1 font-weight-500 rounded-pill px-2 py-1 ml-2">Primary</span></p>
+                            <p class="col-sm-9 text-3 align-items-center d-flex">+1 202-555-015<span class="badge badge-info text-1 font-weight-500 rounded-pill px-2 py-1 ml-2">Primaire</span></p>
                         </div>
                         <div class="form-row align-items-center">
                             <p class="col-sm-3 text-muted text-sm-right mb-0 mb-sm-3">Mobile:</p>
@@ -1120,7 +1055,7 @@
                                             </div>
                                         </div>
                                         <a class="btn-link text-uppercase d-flex align-items-center text-1 float-right mb-3" href="#"><span class="text-3 mr-1"><i class="fas fa-plus-circle"></i></span>Add another Phone</a>
-                                        <button class="btn btn-primary btn-block" type="submit">Save Changes</button>
+                                        <button class="btn btn-primary btn-block" type="submit">Enregistrer les changements</button>
                                     </form>
                                 </div>
                             </div>

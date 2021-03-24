@@ -127,17 +127,17 @@
                 case currencies[1] :
                     document.getElementById('recipientGets').value = (parseInt(document.getElementById('youSend').value) * 1.2046).toFixed(2);
                     document.getElementById('fees').innerHTML = (document.getElementById('recipientGets').value * 0.05).toFixed(2);
-                    document.getElementById('totals').innerHTML = (parseInt(document.getElementById('recipientGets').value) + parseInt(document.getElementById('fees').innerText));
+                    document.getElementById('totals').innerText = Number(document.getElementById('fees').innerText) + Number(document.getElementById('recipientGets').value);
                     break;
                 case currencies[2] :
                     document.getElementById('recipientGets').value = (parseInt(document.getElementById('youSend').value) * 1.3947).toFixed(2);
                     document.getElementById('fees').innerHTML = (document.getElementById('recipientGets').value * 0.05).toFixed(2);
-                    document.getElementById('totals').innerHTML = (parseInt(document.getElementById('recipientGets').value) + parseInt(document.getElementById('fees').innerText));
+                    document.getElementById('totals').innerText = Number(document.getElementById('fees').innerText) + Number(document.getElementById('recipientGets').value);
                     break;
                 default :
                     document.getElementById('recipientGets').value  = parseInt(document.getElementById('youSend').value);
                     document.getElementById('fees').innerHTML = (document.getElementById('recipientGets').value * 0.05).toFixed(2);
-                    document.getElementById('totals').innerHTML = (parseInt(document.getElementById('recipientGets').value) + parseInt(document.getElementById('fees').innerText));
+                    document.getElementById('totals').innerText = Number(document.getElementById('fees').innerText) + Number(document.getElementById('recipientGets').value);
             }
         }
 
@@ -147,17 +147,17 @@
                 case currencies[1] :
                     document.getElementById('youSend').value = (parseInt(document.getElementById('recipientGets').value) * 0.83).toFixed(2);
                     document.getElementById('fees').innerHTML = (document.getElementById('recipientGets').value * 0.05).toFixed(2);
-                    document.getElementById('totals').innerHTML = (parseInt(document.getElementById('recipientGets').value) + parseInt(document.getElementById('fees').innerText));
+                    document.getElementById('totals').innerText = Number(document.getElementById('fees').innerText) + Number(document.getElementById('recipientGets').value);
                     break;
                 case currencies[2] :
                     document.getElementById('youSend').value = (parseInt(document.getElementById('recipientGets').value) * 0.717).toFixed(2);
                     document.getElementById('fees').innerHTML = (document.getElementById('recipientGets').value * 0.05).toFixed(2);
-                    document.getElementById('totals').innerHTML = (parseInt(document.getElementById('recipientGets').value) + parseInt(document.getElementById('fees').innerText));
+                    document.getElementById('totals').innerText = Number(document.getElementById('fees').innerText) + Number(document.getElementById('recipientGets').value);
                     break;
                 default :
                     document.getElementById('youSend').value  = parseInt(document.getElementById('recipientGets').value);
                     document.getElementById('fees').innerHTML = (document.getElementById('recipientGets').value * 0.05).toFixed(2);
-                    document.getElementById('totals').innerHTML = (parseInt(document.getElementById('recipientGets').value) + parseInt(document.getElementById('fees').innerText));
+                    document.getElementById('totals').innerText = Number(document.getElementById('fees').innerText) + Number(document.getElementById('recipientGets').value);
             }
         }
 
