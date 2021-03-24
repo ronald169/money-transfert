@@ -57,8 +57,8 @@
                                 <li class="text-center text-3 py-2">{{ auth()->user()->name }}</li>
                                 <li class="dropdown-divider mx-n3"></li>
                                 <li><a class="dropdown-item" href="{{ route('account') }}"><i class="fas fa-user"></i>Mon Profile</a></li>
-                                <li><a class="dropdown-item" href="#"><i class="fas fa-shield-alt"></i>Sécurité</a></li>
-                                <li><a class="dropdown-item" href="#"><i class="fas fa-credit-card"></i>Methodes paiement</a></li>
+                                <li><a class="dropdown-item" href="{{ route('security') }}"><i class="fas fa-shield-alt"></i>Sécurité</a></li>
+                                <li><a class="dropdown-item" href="{{ route('payment') }}"><i class="fas fa-credit-card"></i>Methodes paiement</a></li>
                                 <li><a class="dropdown-item" href="{{route('notification')}}"><i class="fas fa-bell"></i>Notifications</a></li>
                                 <li class="dropdown-divider mx-n3"></li>
                                 <li><a class="dropdown-item" href="{{ route('help') }}"><i class="fas fa-life-ring"></i>Aide ?</a></li>

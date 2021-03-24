@@ -4,16 +4,7 @@
 
     <!-- Secondary Menu
   ============================================= -->
-    <div class="bg-primary">
-        <div class="container d-flex justify-content-center">
-            <ul class="nav secondary-nav">
-                <li class="nav-item"> <a class="nav-link" href="settings-profile.html">Account</a></li>
-                <li class="nav-item"> <a class="nav-link active" href="settings-security.html">Security</a></li>
-                <li class="nav-item"> <a class="nav-link" href="settings-payment-methods.html">Payment Methods</a></li>
-                <li class="nav-item"> <a class="nav-link" href="settings-notifications.html">Notifications</a></li>
-            </ul>
-        </div>
-    </div>
+    @include('front.include.secondary-menu')
     <!-- Secondary Menu end -->
 
     <!-- Content
@@ -35,9 +26,9 @@
                     <!-- Password
                     ============================================= -->
                     <div class="bg-white shadow-sm rounded p-4 mb-4">
-                        <h3 class="text-5 font-weight-400 d-flex align-items-center mb-4">Password<a href="#change-password" data-toggle="modal" class="ml-auto text-2 text-uppercase btn-link"><span class="mr-1"><i class="fas fa-edit"></i></span>Change</a></h3>
+                        <h3 class="text-5 font-weight-400 d-flex align-items-center mb-4">Password<a href="#change-password" data-toggle="modal" class="ml-auto text-2 text-uppercase btn-link"><span class="mr-1"><i class="fas fa-edit"></i></span>Changer</a></h3>
                         <hr class="mx-n4 mb-4">
-                        <p class="text-3">Create or update your password. - <span class="text-muted">Last changed: 15 March, 2020</span></p>
+                        <p class="text-3">Créez ou mettez à jour votre mot de passe. - <span class="text-muted">Dernière modification: 15 mars 2020</span></p>
                     </div>
                     <!-- Edit Details Modal
                     ================================== -->
@@ -45,24 +36,24 @@
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title font-weight-400">Change Password</h5>
+                                    <h5 class="modal-title font-weight-400">Changer le mot de passe</h5>
                                     <button type="button" class="close font-weight-400" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
                                 </div>
                                 <div class="modal-body p-4">
                                     <form id="changePassword" method="post">
                                         <div class="form-group">
-                                            <label for="existingPassword">Confirm Current Password</label>
-                                            <input type="text" class="form-control" data-bv-field="existingpassword" id="existingPassword" required placeholder="Enter Current Password">
+                                            <label for="existingPassword">Confirmer le mot de passe actuel</label>
+                                            <input type="text" class="form-control" data-bv-field="existingpassword" id="existingPassword" required placeholder="Entrer le mot de passe actuel">
                                         </div>
                                         <div class="form-group">
-                                            <label for="newPassword">New Password</label>
-                                            <input type="text" class="form-control" data-bv-field="newpassword" id="newPassword" required placeholder="Enter New Password">
+                                            <label for="newPassword">nouveau mot de passe</label>
+                                            <input type="text" class="form-control" data-bv-field="newpassword" id="newPassword" required placeholder="Entrez un nouveau mot de passe">
                                         </div>
                                         <div class="form-group">
-                                            <label for="confirmPassword">Confirm New Password</label>
-                                            <input type="text" class="form-control" data-bv-field="confirmgpassword" id="confirmPassword" required placeholder="Enter Confirm New Password">
+                                            <label for="confirmPassword">Confirmer le nouveau mot de passe</label>
+                                            <input type="text" class="form-control" data-bv-field="confirmgpassword" id="confirmPassword" required placeholder="Entrez Confirmer le nouveau mot de passe">
                                         </div>
-                                        <button class="btn btn-primary btn-block mt-4" type="submit">Update Password</button>
+                                        <button class="btn btn-primary btn-block mt-4" type="submit">Mettre à jour le mot de passe</button>
                                     </form>
                                 </div>
                             </div>
@@ -73,9 +64,9 @@
                     <!-- Security Questions
                     ============================================= -->
                     <div class="bg-white shadow-sm rounded p-4 mb-4">
-                        <h3 class="text-5 font-weight-400 d-flex align-items-center mb-4">Security Questions<a href="#change-security-questions" data-toggle="modal" class="ml-auto text-2 text-uppercase btn-link"><span class="mr-1"><i class="fas fa-edit"></i></span>Change</a></h3>
+                        <h3 class="text-5 font-weight-400 d-flex align-items-center mb-4">Questions de sécurité<a href="#change-security-questions" data-toggle="modal" class="ml-auto text-2 text-uppercase btn-link"><span class="mr-1"><i class="fas fa-edit"></i></span>Changer</a></h3>
                         <hr class="mx-n4 mb-4">
-                        <p class="text-3">For your protection, please choose 3 security questions. This way, we can verify it’s really you if there’s ever a doubt.</p>
+                        <p class="text-3">Pour votre protection, veuillez choisir 3 questions de sécurité. De cette façon, nous pouvons vérifier qu’il s’agit bien de vous en cas de doute.</p>
                     </div>
                     <!-- Edit Details Modal
                     ================================== -->
@@ -83,64 +74,64 @@
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title font-weight-400">Security Questions</h5>
+                                    <h5 class="modal-title font-weight-400">Questions de sécurité</h5>
                                     <button type="button" class="close font-weight-400" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
                                 </div>
                                 <div class="modal-body p-4">
-                                    <p class="text-3 mb-4">We'll use these questions as a way to make sure it's your account, like if you need to reset your password</p>
+                                    <p class="text-3 mb-4">Nous utiliserons ces questions pour nous assurer qu'il s'agit bien de votre compte, par exemple si vous devez réinitialiser votre mot de passe</p>
                                     <form id="changePassword" method="post">
                                         <div class="form-group">
-                                            <label for="question1">Security Question 1</label>
+                                            <label for="question1">Question de sécurité 1</label>
                                             <select class="custom-select" id="question1" name="question1">
-                                                <option value="">Select a question</option>
-                                                <option value="1">What was your childhood nickname?</option>
-                                                <option value="2"> What is the name of your favorite childhood friend?</option>
-                                                <option value="3"> What was the name of your first stuffed animal?</option>
-                                                <option value="4"> In what city or town did your mother and father meet?</option>
-                                                <option value="5">What is your youngest brother’s birthday year?</option>
-                                                <option value="6"> What is your maternal grandmother's maiden name?</option>
-                                                <option value="7"> In what city or town was your first job?</option>
-                                                <option value="8"> What is the name of a college you applied to?</option>
+                                                <option value="">Sélectionnez une question</option>
+                                                <option value="1">Quel était ton surnom d'enfance?</option>
+                                                <option value="2"> Quel est le nom de votre ami d'enfance préféré?</option>
+                                                <option value="3"> Quel était le nom de votre premier animal en peluche?</option>
+                                                <option value="4"> Dans quelle ville ou village votre mère et votre père se sont-ils rencontrés?</option>
+                                                <option value="5">Quelle est l’année d’anniversaire de votre plus jeune frère?</option>
+                                                <option value="6"> Quel est le nom de jeune fille de votre grand-mère maternelle?</option>
+                                                <option value="7"> Dans quelle ville ou village a été votre premier emploi?</option>
+                                                <option value="8"> Quel est le nom d'un collège auquel vous avez postulé?</option>
                                             </select>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" data-bv-field="answers1" id="answers1" placeholder="Answer">
+                                            <input type="text" class="form-control" data-bv-field="answers1" id="answers1" placeholder="Repondre">
                                         </div>
                                         <div class="form-group mt-4">
-                                            <label for="question2">Security Question 2</label>
+                                            <label for="question2">Question de sécurité 2</label>
                                             <select class="custom-select" id="question2" name="question2">
-                                                <option value="">Select a question</option>
-                                                <option value="1">What was your childhood nickname?</option>
-                                                <option value="2"> What is the name of your favorite childhood friend?</option>
-                                                <option value="3"> What was the name of your first stuffed animal?</option>
-                                                <option value="4"> In what city or town did your mother and father meet?</option>
-                                                <option value="5">What is your youngest brother’s birthday year?</option>
-                                                <option value="6"> What is your maternal grandmother's maiden name?</option>
-                                                <option value="7"> In what city or town was your first job?</option>
-                                                <option value="8"> What is the name of a college you applied to?</option>
+                                                <option value="">Sélectionnez une question</option>
+                                                <option value="1">Quel était ton surnom d'enfance?</option>
+                                                <option value="2"> Quel est le nom de votre ami d'enfance préféré?</option>
+                                                <option value="3"> Quel était le nom de votre premier animal en peluche?</option>
+                                                <option value="4"> Dans quelle ville ou village votre mère et votre père se sont-ils rencontrés?</option>
+                                                <option value="5">Quelle est l’année d’anniversaire de votre plus jeune frère?</option>
+                                                <option value="6"> Quel est le nom de jeune fille de votre grand-mère maternelle?</option>
+                                                <option value="7"> Dans quelle ville ou village a été votre premier emploi?</option>
+                                                <option value="8">Quel est le nom d'un collège auquel vous avez postulé?</option>
                                             </select>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" data-bv-field="answers2" id="answers2" placeholder="Answer">
+                                            <input type="text" class="form-control" data-bv-field="answers2" id="answers2" placeholder="Repondre">
                                         </div>
                                         <div class="form-group mt-4">
-                                            <label for="question3">Security Question 3</label>
+                                            <label for="question3">Question de sécurité 3</label>
                                             <select class="custom-select" id="question3" name="question3">
-                                                <option value="">Select a question</option>
-                                                <option value="1">What was your childhood nickname?</option>
-                                                <option value="2"> What is the name of your favorite childhood friend?</option>
-                                                <option value="3"> What was the name of your first stuffed animal?</option>
-                                                <option value="4"> In what city or town did your mother and father meet?</option>
-                                                <option value="5">What is your youngest brother’s birthday year?</option>
-                                                <option value="6"> What is your maternal grandmother's maiden name?</option>
-                                                <option value="7"> In what city or town was your first job?</option>
-                                                <option value="8"> What is the name of a college you applied to?</option>
+                                                <option value="">Sélectionnez une question</option>
+                                                <option value="1">Quel était ton surnom d'enfance?</option>
+                                                <option value="2"> Quel est le nom de votre ami d'enfance préféré?</option>
+                                                <option value="3"> Quel était le nom de votre premier animal en peluche?</option>
+                                                <option value="4"> Dans quelle ville ou village votre mère et votre père se sont-ils rencontrés?</option>
+                                                <option value="5">Quelle est l’année d’anniversaire de votre plus jeune frère?</option>
+                                                <option value="6"> Quel est le nom de jeune fille de votre grand-mère maternelle?</option>
+                                                <option value="7"> Dans quelle ville ou village a été votre premier emploi?</option>
+                                                <option value="8"> Quel est le nom d'un collège auquel vous avez postulé?</option>
                                             </select>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" data-bv-field="answers3" id="answers3" placeholder="Answer">
+                                            <input type="text" class="form-control" data-bv-field="answers3" id="answers3" placeholder="Repondre">
                                         </div>
-                                        <button class="btn btn-primary btn-block mt-4" type="submit">Save Changes</button>
+                                        <button class="btn btn-primary btn-block mt-4" type="submit">Sauvegarder les modifications</button>
                                     </form>
                                 </div>
                             </div>
@@ -151,9 +142,9 @@
                     <!-- 2-Step Verification
                     ============================================= -->
                     <div class="bg-white shadow-sm rounded p-4 mb-4">
-                        <h3 class="text-5 font-weight-400 d-flex align-items-center mb-4">2-Step Verification<a href="#two-step-verification" data-toggle="modal" class="ml-auto text-2 text-uppercase btn-link"><span class="mr-1"><i class="fas fa-tools"></i></span>SetUp</a></h3>
+                        <h3 class="text-5 font-weight-400 d-flex align-items-center mb-4">Vérification en 2 étapes<a href="#two-step-verification" data-toggle="modal" class="ml-auto text-2 text-uppercase btn-link"><span class="mr-1"><i class="fas fa-tools"></i></span>Réglage</a></h3>
                         <hr class="mx-n4 mb-4">
-                        <p class="text-3">Add an extra layer of security to your account by using a one-time security code in addition to your password each time you log in.</p>
+                        <p class="text-3">Ajoutez une couche de sécurité supplémentaire à votre compte en utilisant un code de sécurité à usage unique en plus de votre mot de passe chaque fois que vous vous connectez.</p>
                     </div>
                     <!-- Edit Details Modal
                     ================================== -->
@@ -161,13 +152,13 @@
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title font-weight-400">2-Step Verification</h5>
+                                    <h5 class="modal-title font-weight-400">Vérification en 2 étapes</h5>
                                     <button type="button" class="close font-weight-400" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
                                 </div>
                                 <div class="modal-body p-4 text-center">
-                                    <p class="lead">Protect your account with 2-step verification</p>
-                                    <h3 class="text-5 mb-3">Where should we send your one-time code?</h3>
-                                    <p class="line-height-3">Let’s set up the mobile number where you’ll receive your codes for 2-step verification.</p>
+                                    <p class="lead">Protégez votre compte avec la vérification en deux étapes</p>
+                                    <h3 class="text-5 mb-3">Où devons-nous envoyer votre code à usage unique?</h3>
+                                    <p class="line-height-3">Configurons le numéro de mobile sur lequel vous recevrez vos codes pour la validation en deux étapes.</p>
                                     <form id="changePassword" method="post">
                                         <div class="form-group">
                                             <div class="input-group">
@@ -417,12 +408,12 @@
                                                         <option value="ZW,263">ZW +263</option>
                                                     </select>
                                                 </div>
-                                                <input type="text" value="2025550125" class="form-control" data-bv-field="mobilenumber" id="mobileNumber" required placeholder="Mobile Number">
+                                                <input type="text" value="2025550125" class="form-control" data-bv-field="mobilenumber" id="mobileNumber" required placeholder="Numéro de portable">
                                             </div>
                                         </div>
-                                        <button class="btn btn-primary btn-block mt-4" type="submit">Next</button>
+                                        <button class="btn btn-primary btn-block mt-4" type="submit">Suivant</button>
                                     </form>
-                                    <p class="text-muted mt-3">By continuing, you confirm that you are authorized to use this phone number and agree to receive text messages.</p>
+                                    <p class="text-muted mt-3">En continuant, vous confirmez que vous êtes autorisé à utiliser ce numéro de téléphone et acceptez de recevoir des SMS.</p>
                                 </div>
                             </div>
                         </div>

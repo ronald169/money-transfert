@@ -5,16 +5,7 @@
 
     <!-- Secondary Menu
   ============================================= -->
-    <div class="bg-primary">
-        <div class="container d-flex justify-content-center">
-            <ul class="nav secondary-nav">
-                <li class="nav-item"> <a class="nav-link active" href="{{ route('account') }}">Compte</a></li>
-                <li class="nav-item"> <a class="nav-link" href="{{ route('security') }}">Sécurité</a></li>
-                <li class="nav-item"> <a class="nav-link" href="{{ route('payment') }}">Methodes de paiement</a></li>
-                <li class="nav-item"> <a class="nav-link" href="{{ route('notification-change') }}">Notifications</a></li>
-            </ul>
-        </div>
-    </div>
+    @include('front.include.secondary-menu')
     <!-- Secondary Menu end -->
 
     <!-- Content
