@@ -46,6 +46,7 @@
 <div id="preloader"></div>
 @include('front.header.header')
 <!-- header end -->
+
 <!-- Start Slider Area -->
 @yield('main')
 <!-- End Banner Area -->
@@ -82,6 +83,13 @@
 <script src="{{ asset('payment/js/plugins.js')}}"></script>
 <!-- main js -->
 <script src="{{asset('payment/js/main.js')}}"></script>
+
+<!-- Script Payyed-->
+{{--<script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>--}}
+{{--<script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>--}}
+{{--<script src="{{ asset('vendor/bootstrap-select/js/bootstrap-select.min.js') }}"></script>--}}
+{{--<script src="{{ asset('vendor/owl.carousel/owl.carousel.min.js') }}"></script>--}}
+{{--<script src="{{ asset('js/theme.js') }}"></script>--}}
 
 @yield('javascript')
 </body>

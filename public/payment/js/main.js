@@ -3,18 +3,18 @@
 
 /*--------------------------
 preloader
----------------------------- */	
-	
+---------------------------- */
+
 	$(window).on('load',function(){
 		var pre_loader = $('#preloader')
 	pre_loader.fadeOut('slow',function(){$(this).remove();});
-	});	
-    
-    
+	});
+
+
 /*---------------------
  TOP Menu Stick
 --------------------- */
-	
+
 var windows = $(window);
 var sticky = $('#sticker');
 
@@ -26,52 +26,52 @@ windows.on('scroll', function() {
         sticky.addClass('stick');
     }
 });
-    
+
 // Nice Select JS
   $('select').niceSelect();
 /*----------------------------
  jQuery MeanMenu
 ------------------------------ */
-	
+
     var mean_menu = $('nav#dropdown');
     mean_menu.meanmenu();
-    
+
 /*---------------------
  wow .js
 --------------------- */
     function wowAnimation(){
         new WOW({
-            offset: 100,          
+            offset: 100,
             mobile: true
         }).init()
     }
-    wowAnimation()	
-    
+    wowAnimation()
+
 /*--------------------------
  scrollUp
 ---------------------------- */
-	
+
 	$.scrollUp({
 		scrollText: '<i class="ti-angle-up"></i>',
 		easingType: 'linear',
 		scrollSpeed: 900,
 		animation: 'fade'
 	});
-    
+
 /*----------------------------
  Counter js active
 ------------------------------ */
-	
+
     var count = $('.counter');
     count.counterUp({
 		delay: 40,
 		time: 3000
 	});
-	
+
 /*--------------------------
  collapse
 ---------------------------- */
-	
+
 	var panel_test = $('.panel-heading a');
 	panel_test.on('click', function(){
 		panel_test.removeClass('active');
@@ -79,7 +79,7 @@ windows.on('scroll', function() {
 	});
 /*--------------------------
  Parallax
----------------------------- */	
+---------------------------- */
     var parallaxeffect = $(window);
     parallaxeffect.stellar({
         responsive: true,
@@ -89,17 +89,17 @@ windows.on('scroll', function() {
 
 /*--------------------------
  MagnificPopup
----------------------------- */	
-	
+---------------------------- */
+
     $('.video-play').magnificPopup({
         type: 'iframe'
     });
-    
-    
+
+
 /*---------------------
  Brand carousel
 ---------------------*/
-	
+
     var brand = $('.brand-carousel');
     brand.owlCarousel({
 		loop:true,
@@ -123,7 +123,7 @@ windows.on('scroll', function() {
 /*---------------------
  Testimonial carousel
 ---------------------*/
-	
+
     var review = $('.testimonial-carousel');
     review.owlCarousel({
 		loop:true,
@@ -154,7 +154,7 @@ windows.on('scroll', function() {
 		dots:true,
         center: true,
         autoWidth:true,
-        margin:20,    
+        margin:20,
 		autoplay:false,
 		responsive:{
 			0:{
@@ -222,6 +222,6 @@ windows.on('scroll', function() {
 		}
 		$("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
 	}
-    
 
-})(jQuery); 
+
+})(jQuery);

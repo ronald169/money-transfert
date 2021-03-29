@@ -7,12 +7,13 @@
             <div class="display-table-cell">
                 <div class="container">
                     <div class="row">
-                        <div class="slide-text-inner">
-                            <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="slide-text-inner" style="display: flex;">
+                            <div class="col-md-6 col-sm-12 col-xs-12" style="margin: auto;">
                                 <!-- Start Slider content -->
                                 <div class="slide-content">
-                                    <h2 class="title2">Transférez de l'argent en étapes faciles et sécurisées</h2>
-                                    <p>Rapide et facile, vous voulez être plus sûr d'envoyer et de recevoir de l'argent a temps</p>
+{{--                                    <h4 class="title2"></h4>--}}
+                                    <h2 class="title2">Envoi rapide vers la RDCongo</h2>
+                                    <p>Envoyer de l'argent en toute sécurité de la Diaspora vers la RDC avec les meilleurs taux de change bien à moindre coût.</p>
                                     <div class="layer-1-3">
                                         <a href="#" class="ready-btn left-btn" >Commencer</a>
                                         <div class="video-content">
@@ -26,7 +27,7 @@
                                 <!-- End Slider content -->
                             </div>
                             <div class="col-md-6 col-sm-12 col-xs-12">
-                                @include(' payment.money-send')
+                                @include('payment.money-send')
                             </div>
                         </div>
                     </div>
@@ -158,132 +159,11 @@
     <!-- End About Area -->
 
     <!-- service area start -->
-    <div class="services-area area-padding-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="section-headline text-center">
-                        <h3>Services de paiement dans le monde</h3>
-                        <p>Aider les agences à définir leurs nouveaux objectifs commerciaux puis à créer des logiciels professionnels.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="all-services">
-                    <!-- single-well end-->
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="single-service ">
-                            <div class="service-img">
-                                <a class="service-icon" href="#"><i class="flaticon-transfer-1"></i></a>
-                            </div>
-                            <div class="main-service">
-                                <div class="service-content">
-                                    <h4>Transfert d'argent</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single-well end-->
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="single-service ">
-                            <div class="service-img">
-                                <a class="service-icon" href="#"><i class="flaticon-piggy-bank"></i></a>
-                            </div>
-                            <div class="main-service">
-                                <div class="service-content">
-                                    <h4>dépôt bancaire</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single-well end-->
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="single-service ">
-                            <div class="service-img">
-                                <a class="service-icon" href="#"><i class="flaticon-shopping-bag-1"></i></a>
-                            </div>
-                            <div class="main-service">
-                                <div class="service-content">
-                                    <h4>Shopping en ligne</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single-well end-->
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="single-service ">
-                            <div class="service-img">
-                                <a class="service-icon" href="#"><i class="flaticon-smartphone"></i></a>
-                            </div>
-                            <div class="main-service">
-                                <div class="service-content">
-                                    <h4>Paiement en ligne</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single-well end-->
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!-- service area End -->
 
     <!-- Start Feature Area -->
-    <div class="feature-area fix area-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="feature-content">
-                        <div class="feature-images">
-                            <img src="{{asset('img/feature/f1.png')}}" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="feature-text">
-                        <h3>Transférez de l'argent pour votre entreprise en démarrage dans le monde entier</h3>
-                        <p>Le remplacement d'un maintient le nombre de lignes. Lors du remplacement d'une sélection. aider les agences à définir leurs nouveaux objectifs commerciaux puis à créer. Le remplacement d'un maintient le nombre de lignes. Lors du remplacement d'une sélection. aider les agences à définir leurs nouveaux objectifs commerciaux puis à créer. Le remplacement d'un maintient le nombre de lignes. Lors du remplacement d'une sélection. aider les agences à définir leurs nouveaux objectifs commerciaux puis à créer.</p>
 
-                        <a class="feature-btn" href="#">Commencez maintenant</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row margin-row">
-                <div class="col-md-6 col-sm-6 hidden-xs">
-                    <div class="feature-text">
-                        <h3>Développez facilement votre entreprise et économisez plus d'argent</h3>
-                        <p>Le remplacement d'un maintient le nombre de lignes. Lors du remplacement d'une sélection. aider les agences à définir leurs nouveaux objectifs commerciaux puis à créer</p>
-                        <ul>
-                            <li><a href="#">Idée d'innovation dernière technologie d'entreprise</a></li>
-                            <li><a href="#">Plateforme clients en ligne de marketing de contenu numérique</a></li>
-                            <li><a href="#">Services sécurisés et sécurisés pour votre compte de messagerie en ligne</a></li>
-                        </ul>
-                        <a class="feature-btn" href="#">En savoir plus</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="feature-content">
-                        <div class="feature-images">
-                            <img src="{{asset('img/feature/f2.png')}}" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="hidden-md hidden-lg hidden-sm col-xs-12">
-                    <div class="feature-text">
-                        <h3>Développez facilement votre entreprise et gagnez plus d'argent</h3>
-                        <p>Le remplacement d'un maintient le nombre de lignes. Lors du remplacement d'une sélection. aider les agences à définir leurs nouveaux objectifs commerciaux puis à créer</p>
-                        <ul>
-                            <li><a href="#">Idée d'innovation dernière technologie d'entreprise</a></li>
-                            <li><a href="#">Plateforme clients en ligne de marketing de contenu numérique</a></li>
-                            <li><a href="#">Services sécurisés et sécurisés pour votre compte de messagerie en ligne</a></li>
-                        </ul>
-                        <a class="feature-btn" href="{{ route('about') }}">Apprendre encore plus</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- End Feature Area -->
 
     <!-- Start brand Banner area -->
@@ -315,24 +195,6 @@
                             </div>
                             <div class="single-brand-item">
                                 <a href="#"><img src="{{asset('img/client/4.png')}}" alt=""></a>
-                            </div>
-                            <div class="single-brand-item">
-                                <a href="#"><img src="{{asset('img/client/5.png')}}" alt=""></a>
-                            </div>
-                            <div class="single-brand-item">
-                                <a href="#"><img src="{{asset('img/client/6.png')}}" alt=""></a>
-                            </div>
-                            <div class="single-brand-item">
-                                <a href="#"><img src="{{asset('img/client/7.png')}}" alt=""></a>
-                            </div>
-                            <div class="single-brand-item">
-                                <a href="#"><img src="{{asset('img/client/8.png')}}" alt=""></a>
-                            </div>
-                            <div class="single-brand-item">
-                                <a href="#"><img src="{{asset('img/client/9.png')}}" alt=""></a>
-                            </div>
-                            <div class="single-brand-item">
-                                <a href="#"><img src="{{asset('img/client/10.png')}}" alt=""></a>
                             </div>
                         </div>
                         <a class="hire-btn" href="#">Commencer</a>

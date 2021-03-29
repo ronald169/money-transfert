@@ -1,36 +1,49 @@
 <div class="money-send">
     <div class="calculator-inner">
         <div class="single-cal">
-            <div class="inner-form">
-                <form action="#">
-                    <label>Vous envoyez</label>
-                    <input type="text" class="form-input" placeholder="0" id="youSend" onchange="moneySend()" required>
+{{--            <form action="#">--}}
+                <h4 class="text-center">Envoyer de l'argent</h4>
+
+                <div class="inner-form">
+                    <label>Montant envoyé</label>
+                    <input type="text" class="form-input" placeholder="0" value="0" id="youSend" onchange="moneySend()" required>
                     <select id="youSendCurrency" onchange="currencyChanged()" required>
                         <option value="dollar">USD</option>
                         <option value="euro">EUR</option>
                         <option value="sterling">GBP</option>
                     </select>
-                </form>
-            </div>
-            <div class="inner-form">
-                <form action="#">
-                    <label>Il recoit</label>
-                    <input type="text" class="form-input" placeholder="0" id="recipientGets" onchange="moneyReceive()">
+                </div>
+                <div class="inner-form">
+                    <label>Le bénéficiare recevra</label>
+                    <input type="text" class="form-input" placeholder="0" value="0" id="recipientGets" onchange="moneyReceive()">
                     <select disabled>
                         <option value="dollar">USD</option>
                     </select>
-                </form>
+                </div>
+
+            <div class="inner-form">
+                <label>Moyen de retrait</label>
+                <select name="" id="" class="wide">
+                    <option disabled selected>Sélectionnez le moyen de retrait</option>
+                    <option value="orange-money">Orange Money</option>
+                    <option value="m-pesa">M-Pesa</option>
+                    <option value="airtel">Airtel</option>
+                </select>
             </div>
-            <div class="inner-form-text">
+            <br><br>
+            <div class="inner-form-text ">
                 <div class="rate-text">
-                    <span> <strong>1 $ = 0.830 € ~ 1 $ = 0.717 £</strong> Taux de change</span> <br>
-                    <span> <strong>0.05%</strong> Frais de transfert</span>
+                    <span>  Taux de change <strong> : 1 $ = 0.830 € ~ 1 $ = 0.717 £</strong></span> <br>
+                    <span>  Frais de transfert : <strong>0.05%</strong> </span>
                 </div>
             </div>
-            <button class="cale-btn">Continuez</button>
-            <div class="terms-text">
-                <p>En cliquant sur continuer, je suis d'accord avec <a href="#">Termes et politique</a></p>
-            </div>
+
+            <button class="cale-btn" >Continuez</button>
+{{--            </form>--}}
+
+{{--            <div class="terms-text">--}}
+{{--                <p>En cliquant sur continuer, je suis d'accord avec <a href="#">Termes et politique</a></p>--}}
+{{--            </div>--}}
         </div>
     </div>
 </div>

@@ -2,55 +2,8 @@
     <div class="footer-area">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="footer-content logo-footer">
-                        <div class="footer-head">
-                            <div class="footer-logo">
-                                <a class="footer-black-logo" href="#"><img src="{{asset('images/logo/logo.png')}}" alt=""></a>
-                            </div>
-                            <p>
-                                Vous recherchez des conseils professionnels pour votre nouvelle entreprise. Vous recherchez des conseils professionnels pour votre nouvelle entreprise. Vous recherchez des conseils professionnels pour votre nouvelle entreprise.
-                            </p>
-                            <div class="footer-icons">
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-google"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-pinterest"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="subs-feilds">
-                                <div class="suscribe-input">
-                                    <input type="email" class="email form-control width-80" id="sus_email" placeholder="Saisissez un e-mail">
-                                    <button type="submit" id="sus_submit" class="add-btn">S'abonner</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <!-- end single footer -->
-                <div class="col-md-2 col-sm-3 col-xs-12">
+                <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="footer-content">
                         <div class="footer-head">
                             <h4>Products</h4>
@@ -64,7 +17,7 @@
                     </div>
                 </div>
                 <!-- end single footer -->
-                <div class="col-md-2 col-sm-3 col-xs-12">
+                <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="footer-content">
                         <div class="footer-head">
                             <h4>Payments</h4>
@@ -78,7 +31,7 @@
                     </div>
                 </div>
                 <!-- end single footer -->
-                <div class="col-md-2 hidden-sm col-xs-12">
+                <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="footer-content">
                         <div class="footer-head">
                             <h4>Company</h4>
@@ -92,21 +45,6 @@
                     </div>
                 </div>
                 <!-- end single footer -->
-                <div class="col-md-2 hidden-sm col-xs-12">
-                    <div class="footer-content last-content">
-                        <div class="footer-head">
-                            <h4>Support</h4>
-                            <ul class="footer-list">
-                                <li><a href="#">Service client</a></li>
-                                <li><a href="#">Chat en direct</a></li>
-                                <li><a href="#">Notification</a></li>
-                                <li><a href="#">Vie privée</a></li>
-                                <li><a href="#">Termes et conditions</a></li>
-                                <li><a href="#">Contacts </a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
