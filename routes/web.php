@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Front\PaymentController;
 
 Route::get('/', function () {
-    return view('front.welcome');
+    return view('payment.welcome');
 })->name('welcome');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
@@ -63,4 +63,8 @@ Route::middleware('auth')->group(function () {
     Route::name('notification-change')->get('notification-change', function() {
         return view('front.notification-change');
     });
+});
+
+Route::get('paiment', function () {
+    return view('payment.welcome');
 });

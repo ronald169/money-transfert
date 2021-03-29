@@ -162,21 +162,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/logo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/payment" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\laragon\www\money\public\images\logo" />
-      <recent name="C:\laragon\www\money\public\images" />
-      <recent name="C:\laragon\www\money\resources\lang" />
-      <recent name="C:\laragon\www\money\public\vendor\bootstrap-select\css" />
-      <recent name="C:\laragon\www\money\public\vendor\bootstrap-select\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\laragon\www\money\public\css" />
       <recent name="C:\laragon\www\money\resources\views\auth\default" />
       <recent name="C:\laragon\www\money\resources\views\front" />
       <recent name="C:\laragon\www\money\public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\money\public\payment" />
+      <recent name="C:\laragon\www\money\public" />
+      <recent name="C:\laragon\www\money\public\images\logo" />
+      <recent name="C:\laragon\www\money\public\images" />
+      <recent name="C:\laragon\www\money\resources\lang" />
     </key>
   </component>
   <component name="RunManager">
@@ -221,6 +221,8 @@
       <workItem from="1616403178803" duration="19183000" />
       <workItem from="1616428645371" duration="42480000" />
       <workItem from="1616751686932" duration="20000" />
+      <workItem from="1616767333480" duration="3729000" />
+      <workItem from="1617014318350" duration="5118000" />
     </task>
     <servers />
   </component>
@@ -240,6 +242,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616435201835" />
+    <state x="517" y="288" key="NewPhpFileDialog" timestamp="1616768322085">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="288" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1616768322085" />
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1616751693734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -248,14 +254,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1616408537515" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1616496548987">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1616767621961">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1616496548987" />
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1616605328729">
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1616767621961" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1617018684659">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1616605328729" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1617018684659" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
