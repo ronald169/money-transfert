@@ -21,6 +21,10 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('vendor/currency-flags/css/currency-flags.min.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('vendor/owl.carousel/assets/owl.carousel.min.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('css/stylesheet.css') }}" />
+    <!-- style css -->
+    <link rel="stylesheet" href="{{asset('payment/style.css')}}">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="{{asset('payment/css/responsive.css')}}">
 </head>
 <body>
 
@@ -36,13 +40,14 @@
 
     <!-- Header
     ============================================= -->
-    @auth()
-        @include('front.header-auth')
-    @endauth
+    @include('front.header.header')
+{{--    @auth()--}}
+{{--        @include('front.header-auth')--}}
+{{--    @endauth--}}
 
-    @guest()
-        @include('front.header-guest')
-    @endguest
+{{--    @guest()--}}
+{{--        @include('front.header-guest')--}}
+{{--    @endguest--}}
     <!-- Header End -->
 
     <!-- Content

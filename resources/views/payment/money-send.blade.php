@@ -33,11 +33,11 @@
             <br><br>
             <div class="inner-form-text ">
                 <div class="rate-text">
-                    <span>  Taux de change <strong> : 1 $ = 0.830 € ~ 1 $ = 0.717 £</strong></span> <br>
-                    <span>  Frais de transfert : <strong>0.05%</strong> </span>
+                    <span>Frais de transfert: <strong id="fees"> 0 </strong></span> <br>
+                    <span> Total à envoyer : <strong id="totals">0</strong> </span>
                 </div>
             </div>
-
+            
             <button class="cale-btn" >Continuez</button>
 {{--            </form>--}}
 
@@ -64,18 +64,18 @@
             switch (showOption()) {
                 case currencies[1] :
                     document.getElementById('recipientGets').value = (parseInt(document.getElementById('youSend').value) * 1.2046).toFixed(2);
-                    // document.getElementById('fees').innerHTML = (document.getElementById('recipientGets').value * 0.05).toFixed(2);
-                    // document.getElementById('totals').innerText = Number(document.getElementById('fees').innerText) + Number(document.getElementById('recipientGets').value);
+                    document.getElementById('fees').innerHTML = (document.getElementById('recipientGets').value * 0.05).toFixed(2);
+                    document.getElementById('totals').innerText = Number(document.getElementById('fees').innerText) + Number(document.getElementById('recipientGets').value);
                     break;
                 case currencies[2] :
                     document.getElementById('recipientGets').value = (parseInt(document.getElementById('youSend').value) * 1.3947).toFixed(2);
-                    // document.getElementById('fees').innerHTML = (document.getElementById('recipientGets').value * 0.05).toFixed(2);
-                    // document.getElementById('totals').innerText = Number(document.getElementById('fees').innerText) + Number(document.getElementById('recipientGets').value);
+                    document.getElementById('fees').innerHTML = (document.getElementById('recipientGets').value * 0.05).toFixed(2);
+                    document.getElementById('totals').innerText = Number(document.getElementById('fees').innerText) + Number(document.getElementById('recipientGets').value);
                     break;
                 default :
                     document.getElementById('recipientGets').value  = parseInt(document.getElementById('youSend').value);
-                    // document.getElementById('fees').innerHTML = (document.getElementById('recipientGets').value * 0.05).toFixed(2);
-                    // document.getElementById('totals').innerText = Number(document.getElementById('fees').innerText) + Number(document.getElementById('recipientGets').value);
+                    document.getElementById('fees').innerHTML = (document.getElementById('recipientGets').value * 0.05).toFixed(2);
+                    document.getElementById('totals').innerText = Number(document.getElementById('fees').innerText) + Number(document.getElementById('recipientGets').value);
             }
         }
 
@@ -84,18 +84,18 @@
             switch (showOption()) {
                 case currencies[1] :
                     document.getElementById('youSend').value = (parseInt(document.getElementById('recipientGets').value) * 0.83).toFixed(2);
-                    // document.getElementById('fees').innerHTML = (document.getElementById('recipientGets').value * 0.05).toFixed(2);
-                    // document.getElementById('totals').innerText = Number(document.getElementById('fees').innerText) + Number(document.getElementById('recipientGets').value);
+                    document.getElementById('fees').innerHTML = (document.getElementById('recipientGets').value * 0.05).toFixed(2);
+                    document.getElementById('totals').innerText = Number(document.getElementById('fees').innerText) + Number(document.getElementById('recipientGets').value);
                     break;
                 case currencies[2] :
                     document.getElementById('youSend').value = (parseInt(document.getElementById('recipientGets').value) * 0.717).toFixed(2);
-                    // document.getElementById('fees').innerHTML = (document.getElementById('recipientGets').value * 0.05).toFixed(2);
-                    // document.getElementById('totals').innerText = Number(document.getElementById('fees').innerText) + Number(document.getElementById('recipientGets').value);
+                    document.getElementById('fees').innerHTML = (document.getElementById('recipientGets').value * 0.05).toFixed(2);
+                    document.getElementById('totals').innerText = Number(document.getElementById('fees').innerText) + Number(document.getElementById('recipientGets').value);
                     break;
                 default :
                     document.getElementById('youSend').value  = parseInt(document.getElementById('recipientGets').value);
-                    // document.getElementById('fees').innerHTML = (document.getElementById('recipientGets').value * 0.05).toFixed(2);
-                    // document.getElementById('totals').innerText = Number(document.getElementById('fees').innerText) + Number(document.getElementById('recipientGets').value);
+                    document.getElementById('fees').innerHTML = (document.getElementById('recipientGets').value * 0.05).toFixed(2);
+                    document.getElementById('totals').innerText = Number(document.getElementById('fees').innerText) + Number(document.getElementById('recipientGets').value);
             }
         }
 

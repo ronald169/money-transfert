@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12">
-                    <div class="row">
+                    <div class="flex">
                         <!-- logo start -->
                         <div class="col-md-2 col-sm-2">
                             <div class="logo">
