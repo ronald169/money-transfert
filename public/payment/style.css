@@ -1439,7 +1439,7 @@ div#preloader {
     font-size: 14px;
     margin: 0px 6px;
     color: #666;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
 }
 .rate-text span strong {
     color:#151b2c;

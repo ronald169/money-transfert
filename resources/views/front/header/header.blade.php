@@ -11,7 +11,7 @@
                                 <!-- Brand -->
                                 <a class="navbar-brand page-scroll white-logo" href="{{ route('welcome') }}"
                                 style="padding-bottom: 0px; padding-right: 0px; padding-top: 0px; padding-left: 0px;">
-                                    <img src="{{asset('images/logo_kimya.png')}}" alt="" style="margin-top: 10%;">
+                                    <img src="{{asset('images/logo_kimya_white.png')}}" alt="" style="margin-top: 10%;">
                                 </a>
                                 <a class="navbar-brand page-scroll black-logo" href="{{ route('welcome') }}"
                                    style="padding-bottom: 0px; padding-right: 0px; padding-top: 0px; padding-left: 0px;">

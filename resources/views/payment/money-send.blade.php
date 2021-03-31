@@ -37,7 +37,7 @@
                     <span> Total à envoyer : <strong id="totals">0</strong> </span>
                 </div>
             </div>
-            
+
             <button class="cale-btn" >Continuez</button>
 {{--            </form>--}}
 
