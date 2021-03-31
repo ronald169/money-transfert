@@ -6,21 +6,19 @@
                 <div class="col-md-12 col-sm-12">
                     <div class="flex">
                         <!-- logo start -->
-                        <div class="col-md-2 col-sm-2">
+                        <div class="col-md-3 col-sm-2">
                             <div class="logo">
                                 <!-- Brand -->
-                                <a class="navbar-brand page-scroll white-logo" href="{{ route('welcome') }}"
-                                style="padding-bottom: 0px; padding-right: 0px; padding-top: 0px; padding-left: 0px;">
-                                    <img src="{{asset('images/logo_kimya_white.png')}}" alt="" style="margin-top: 10%;">
+                                <a class="navbar-brand page-scroll white-logo" href="{{ route('welcome') }}">
+                                    <img src="{{asset('images/logo_kimya_white.png')}}" alt="">
                                 </a>
-                                <a class="navbar-brand page-scroll black-logo" href="{{ route('welcome') }}"
-                                   style="padding-bottom: 0px; padding-right: 0px; padding-top: 0px; padding-left: 0px;">
-                                    <img src="{{asset('images/logo_kimya.png')}}" alt="" style="margin-top: 10%;">
+                                <a class="navbar-brand page-scroll black-logo" href="{{ route('welcome') }}">
+                                    <img src="{{asset('images/logo_kimya.png')}}" alt="">
                                 </a>
                             </div>
                             <!-- logo end -->
                         </div>
-                        <div class="col-md-10 col-sm-10">
+                        <div class="col-md-9 col-sm-10">
                             <div class="header-right-link">
                                 <!-- search option end -->
                                 <a class="s-menu" href="{{route('login')}}">connecter</a>

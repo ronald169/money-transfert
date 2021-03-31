@@ -6,8 +6,7 @@
                 ============================= -->
                 <div class="logo">
                     <a class="d-flex" href="{{route('welcome')}}" title="Kimya">
-                        <img src="{{asset('images/logo/logo.png')}}" alt="Payyed" />
-{{--                        <h1 class="text-primary">KIMYA</h1>--}}
+                        <img src="{{asset('images/logo_kimya.png')}}" alt="Kimya" style="max-width: 60%;"/>
                     </a>
                 </div>
                 <!-- Logo end -->
@@ -21,7 +20,6 @@
                 <nav class="primary-menu navbar navbar-expand-lg">
                     <div id="header-nav" class="collapse navbar-collapse">
                         <ul class="navbar-nav mr-auto">
-{{--                            <li class="active"><a href="{{ route('profile.show') }}">Profile</a></li>--}}
                             <li><a href="{{ route('about') }}">A propos de nous</a></li>
                             <li><a href="{{ route('help') }}">Aide</a></li>
                             <li><a href="{{ route('contact') }}">Contactez nous</a></li>

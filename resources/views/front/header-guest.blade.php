@@ -6,8 +6,7 @@
                 ============================= -->
                 <div class="logo">
                     <a class="d-flex" href="{{route('welcome')}}" title="Kimya">
-                        <img src="{{asset('images/logo/logo.png')}}" alt="Kimya" />
-{{--                        <h1 class="text-primary">KIMYA</h1>--}}
+                        <img src="{{asset('images/logo_kimya.png')}}" alt="Kimya" style="max-width: 60%;"/>
                     </a>
                 </div>
                 <!-- Logo end -->

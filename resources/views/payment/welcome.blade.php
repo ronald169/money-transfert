@@ -38,7 +38,7 @@
     <!-- End Slider Area -->
 
     <!-- Start How to area -->
-    <div class="how-to-area how-to-area-2 bg-color area-padding">
+    <div class="how-to-area how-to-area-2 area-padding">
         <div class="container">
             <div class="row">
                 <div class="all-services">
@@ -92,7 +92,7 @@
     <!-- End How to area -->
 
     <!-- Start About Area -->
-    <div class="about-area bg-color fix area-padding">
+    <div class="about-area bg-color fix area-padding" style="background: #fafafa;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
@@ -182,7 +182,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="brand-content">
+                    <div class="brand-content" style="box-shadow: 0 5px 25px rgb(0 0 0 / 10%);">
                         <div class="brand-items">
                             <div class="single-brand-item">
                                 <a href="#"><img src="{{asset('img/client/1.png')}}" alt=""></a>

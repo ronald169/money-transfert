@@ -165,18 +165,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\money\public\css" />
+      <recent name="C:\laragon\www\money\resources\views\auth\default" />
+      <recent name="C:\laragon\www\money\resources\views\front" />
+      <recent name="C:\laragon\www\money\public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\laragon\www\money\public\images" />
       <recent name="C:\laragon\www\money\public\payment" />
       <recent name="C:\laragon\www\money\public" />
       <recent name="C:\laragon\www\money\public\images\logo" />
       <recent name="C:\laragon\www\money\resources\lang" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\laragon\www\money\public\css" />
-      <recent name="C:\laragon\www\money\resources\views\auth\default" />
-      <recent name="C:\laragon\www\money\resources\views\front" />
-      <recent name="C:\laragon\www\money\public" />
     </key>
   </component>
   <component name="RunManager">
@@ -223,7 +223,7 @@
       <workItem from="1616751686932" duration="20000" />
       <workItem from="1616767333480" duration="3729000" />
       <workItem from="1617014318350" duration="25524000" />
-      <workItem from="1617086271553" duration="9426000" />
+      <workItem from="1617086271553" duration="23156000" />
     </task>
     <servers />
   </component>
@@ -255,14 +255,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1616408537515" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1616767621961">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1617210870052">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1616767621961" />
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1617180294076">
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1617210870052" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1617209703246">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1617180294076" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1617209703246" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
